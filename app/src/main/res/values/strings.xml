@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JampaTur</string>
+    <string name="title_section1">João Pessoa</string>
+    <string name="title_section2">Praias</string>
+    <string name="title_section3">Pontos Turisticos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="array_section">
+        <item>João Pessoa</item>
+        <item>Praias</item>
+    </string-array>
+</resources>
