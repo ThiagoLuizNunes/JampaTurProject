@@ -10,14 +10,13 @@ import android.view.ViewGroup;
 /**
  * Created by CONF-6 on 17/03/2015.
  */
-public class PraiasFragment extends Fragment{
+public class JampaFragment extends Fragment {
 
     View rootView;
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        rootView = inflater.inflate(R.layout.fragment_praias, container, false);
-
+        rootView = inflater.inflate(R.layout.fragment_jampa_tur,container, false);
         return rootView;
     }
 }

@@ -44,9 +44,37 @@ public class JampaTurActivity extends ActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
+
+        Fragment objFragment = null;
+
+        switch (position){
+            case 0:
+                objFragment = new JampaFragment();
+                break;
+            case 1:
+                objFragment = new PraiasFragment();
+                break;
+            case 2:
+                objFragment = new PontosFragment();
+                break;
+            case 3:
+                objFragment = new HoteisFragment();
+                break;
+            case 4:
+                objFragment = new RestaurantesFragment();
+                break;
+            case 5:
+                objFragment = new ComprasFragment();
+                break;
+            case 6:
+                objFragment = new NoiteFragment();
+                break;
+
+        }
+
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                .replace(R.id.container, objFragment)
                 .commit();
     }
 
